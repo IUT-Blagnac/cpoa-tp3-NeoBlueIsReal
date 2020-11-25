@@ -41,16 +41,16 @@ endif::[]
 ifndef::uk[]
 :lang: fr
 :lastName: NOM
-:firstName: Prénom
+:firstName: PrÃ©nom
 :group: Groupe
 :example: Exemple
 :Enseignants: Enseignants
 :principe: Principe Objet
-:assignment: Informations générales
-:requirements: Pré-requis
-:initial: Tâche initiale
+:assignment: Informations gÃ©nÃ©rales
+:requirements: PrÃ©-requis
+:initial: TÃ¢che initiale
 :allerPlusLoin: Pour Aller plus loin...
-:about: À propos...
+:about: Ã€ propos...
 :contrib: Contributeurs
 endif::[]
 :java: https://www.java.com/fr/[Java]
@@ -87,16 +87,16 @@ endif::[]
 //------------------------------------ 
 == {assignment}
 
-{lastName}:: BRUEL
+{lastName}:: Creurer
 
-{firstName}:: Jean-Michel
+{firstName}:: Benjamin
 
 {group} #::
 
 [%interactive]
-- [x] {Enseignants}
+- [ ] {Enseignants}
 - [ ] 1
-- [ ] 2
+- [x] 2
 - [ ] 3
 - [ ] 4
 - [ ] Innopolis
@@ -127,7 +127,7 @@ endif::[]
 ifndef::uk[]
 [TIP]
 ====    
-Essayez la commande suivante dans votre terminal pour vérifier votre environnement `git` :
+Essayez la commande suivante dans votre terminal pour vÃ©rifier votre environnement `git` :
 endif::[]
 
 [source,shell]
@@ -148,9 +148,9 @@ ifdef::uk[]
 endif::[]
 ifndef::uk[]
 [%interactive]
-* [x] Clickez sur le lien Github Classroom fourni par votre enseignant (en fait c'est déjà fait si vous lisez ces lignes).
-* [ ] Clonez sur votre machine le projet Github généré pour vous par Github Classroom.  
-* [ ] Modifez le `README` pour modifier Nom, Prénom et Groupe. 
+* [x] Clickez sur le lien Github Classroom fourni par votre enseignant (en fait c'est dÃ©jÃ  fait si vous lisez ces lignes).
+* [ ] Clonez sur votre machine le projet Github gÃ©nÃ©rÃ© pour vous par Github Classroom.  
+* [ ] Modifez le `README` pour modifier Nom, PrÃ©nom et Groupe. 
 * [ ] Commit & push:
 endif::[]
 
@@ -163,17 +163,17 @@ fix #0 Initial task done
 
 [IMPORTANT]
 ifndef::uk[]
-Dans la suite de ce document, à chaque fois que vous trouverez un énoncé commençant par `fix #...` vous devez vérifier que vos scripts/fichiers modifiés sont bien dans votre dépôt local en vue de committer et de pusher les modifications sur votre dépôt distant en utilisant comme message de commit cet énoncé.
+Dans la suite de ce document, Ã  chaque fois que vous trouverez un Ã©noncÃ© commenÃ§ant par `fix #...` vous devez vÃ©rifier que vos scripts/fichiers modifiÃ©s sont bien dans votre dÃ©pÃ´t local en vue de committer et de pusher les modifications sur votre dÃ©pÃ´t distant en utilisant comme message de commit cet Ã©noncÃ©.
 
 [TIP]
 ====
-- Si vous voulez vérifier que vous êtes prêt pour le `fix #0`, utilisez la commande : `make check`.
-- Si vous voulez avoir la liste des ToDos de ce TP/TP, exécutez `make todos`.
+- Si vous voulez vÃ©rifier que vous Ãªtes prÃªt pour le `fix #0`, utilisez la commande : `make check`.
+- Si vous voulez avoir la liste des ToDos de ce TP/TP, exÃ©cutez `make todos`.
 ====
 
 [NOTE]
 =====
-Les exercices de ce TD sont tirés de l'excellent livre "Tête la première : Design Pattern".
+Les exercices de ce TD sont tirÃ©s de l'excellent livre "TÃªte la premiÃ¨re : Design Pattern".
 Bert Bates, Eric Freeman, Elisabeth Freeman, Kathy Sierra. Editions O'Reilly. 2005.
 
 image::headFirst.jpg[link="https://www.oreilly.com/library/view/head-first-design/0596007124/",width=40%]
@@ -181,7 +181,7 @@ image::headFirst.jpg[link="https://www.oreilly.com/library/view/head-first-desig
 endif::[]
 
 ifdef::uk[]
-In the following, every time you'll see à `fix #...` text, 
+In the following, every time you'll see Ã  `fix #...` text, 
 make sure all your files are committed, and then push your modifications in the distant repo, making sure you used the corresponding message (`fix #...`) in one of the `commit` messages.
 
 [TIP]
@@ -213,12 +213,12 @@ endif::[]
 .*QUESTION*
 [NOTE]
 ====
-* Implémentez entièrement l'application de Pizzeria vue en TD3 de manière à ce :
-** qu'elle mette en œuvre le patron Fabrique Abstraite
-** qu'elle mette en œuvre le patron Singleton (pour les fabriques)
-** que le programme de main (attention, ce n'est pas un test JUnit) livré dans votre dépôt produise le résultat ci-dessous.
+* ImplÃ©mentez entiÃ¨rement l'application de Pizzeria vue en TD3 de maniÃ¨re Ã  ce :
+** qu'elle mette en Å“uvre le patron Fabrique Abstraite
+** qu'elle mette en Å“uvre le patron Singleton (pour les fabriques)
+** que le programme de main (attention, ce n'est pas un test JUnit) livrÃ© dans votre dÃ©pÃ´t produise le rÃ©sultat ci-dessous.
 +
-TIP: Commencez par le programme fourni et servez-vous des _QuickFix_ pour "générer" un maximum de code.
+TIP: Commencez par le programme fourni et servez-vous des _QuickFix_ pour "gÃ©nÃ©rer" un maximum de code.
 +
 ====
 
@@ -232,10 +232,10 @@ TIP: Commencez par le programme fourni et servez-vous des _QuickFix_ pour "gén�
 [%interactive]
 * [ ] un `pom.xml` fonctionnel qui lance les tests maven de votre application
 * [ ] un `build.gradle` fonctionnel qui lance les tests gradle de votre application
-* [ ] le diagramme de classe de votre application, dans un fichier `TP3.plantuml`, placé dans le répertoire `doc` de votre dépôt.
+* [ ] le diagramme de classe de votre application, dans un fichier `TP3.plantuml`, placÃ© dans le rÃ©pertoire `doc` de votre dÃ©pÃ´t.
 ====
 
-On utilisera le modèle suivant pour les pizzas :
+On utilisera le modÃ¨le suivant pour les pizzas :
 
 .Diagramme de classe des Pizzas
 image::Pizzas-dc.svg[]
@@ -249,41 +249,41 @@ public class PizzaTestDrive {
         Pizzeria boutiqueStrasbourg = PizzeriaFactory.getInstance().creer("Strasbourg");
 
         Pizza pizza = boutiqueBrest.commanderPizza("fromage");
-        System.out.println("JMB a commandé une " + pizza.getNom() + "\n");
+        System.out.println("JMB a commandÃ© une " + pizza.getNom() + "\n");
 
         pizza = boutiqueStrasbourg.commanderPizza("fromage");
-        System.out.println("JMI a commandé une " + pizza.getNom() + "\n");
+        System.out.println("JMI a commandÃ© une " + pizza.getNom() + "\n");
     }
 -------
 
-.Résultat d'exécution
+.RÃ©sultat d'exÃ©cution
 ............
 $ java -jar target/pizzeria.jar
-Préparation de Pizza sauce style brest et fromage
-Étalage de la pâte...
+PreÌ�paration de Pizza sauce style brest et fromage
+EÌ�talage de la paÌ‚te...
 Ajout de la sauce...
 Ajout des garnitures: 
- Parmigiano reggiano râpé
-Cuisson 25 minutes à 180 degrés
-Découpage en parts triangulaires
-Emballage dans une boîte officielle
-JMB a commandé une Pizza sauce style brest et fromage
+ Parmigiano reggiano raÌ‚peÌ�
+Cuisson 25 minutes aÌ€ 180 degrÃ©s
+DeÌ�coupage en parts triangulaires
+Emballage dans une boiÌ‚te officielle
+JMB a commandÃ© une Pizza sauce style brest et fromage
 
-Préparation de Pizza pâte style Strasbourg et fromage
-Étalage de la pâte...
+PreÌ�paration de Pizza pÃ¢te style Strasbourg et fromage
+EÌ�talage de la paÌ‚te...
 Ajout de la sauce...
 Ajout des garnitures: 
  Mozzarella en lamelles
-Cuisson 25 minutes à 180 degrés
-Découpage en parts carrées
-Emballage dans une boîte officielle
-JMI a commandé une Pizza pâte style Strasbourg et fromage
+Cuisson 25 minutes aÌ€ 180 degrÃ©s
+DÃ©coupage en parts carrÃ©es
+Emballage dans une boiÌ‚te officielle
+JMI a commandÃ© une Pizza pÃ¢te style Strasbourg et fromage
 ............
 
 .Architecture type attendue (ici dans une version US)
 image::TP3.svg[]
 
-WARNING: Attention, ce TP est évalué dans le cadre du contrôle continu. L'autograding de classroom lancera les tests via `gradle test` et `maven test`, ainsi que `test0` et le test du modèle. Ceci constituera 80% de la note. Les 20% suivants seront évalués par votre encadrant de TP sur la base de vos tests (qualité et nombres).
+WARNING: Attention, ce TP est Ã©valuÃ© dans le cadre du contrÃ´le continu. L'autograding de classroom lancera les tests via `gradle test` et `maven test`, ainsi que `test0` et le test du modÃ¨le. Ceci constituera 80% de la note. Les 20% suivants seront Ã©valuÃ©s par votre encadrant de TP sur la base de vos tests (qualitÃ© et nombres).
 
 ifndef::backend-pdf[.pass:[<i class="fa fa-github"></i>] commit/push]
 ifdef::backend-pdf[.icon:github[] commit/push]
@@ -335,6 +335,6 @@ Baked with {asciidoctorlink} (version `{asciidoctor-version}`) from 'Dan Allen',
 'Licence Creative Commons'.
 image:88x31.png["Licence Creative
 Commons",style="border-width:0",link="http://creativecommons.org/licenses/by-sa/3.0/"]
-http://creativecommons.org/licenses/by-sa/3.0/[licence Creative Commons Paternité - Partage à l&#39;Identique 3.0 non transposé].
+http://creativecommons.org/licenses/by-sa/3.0/[licence Creative Commons PaternitÃ© - Partage Ã  l&#39;Identique 3.0 non transposÃ©].
 ****************************************************************
 endif::[]
